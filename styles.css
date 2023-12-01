@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: #121214;
+    color: #E1E1E5;
+    font-family: 'Gowun Batang', serif;
+  }
+  
+  body, input, button {
+    font: 400 14px 'Roboto', sans-serif;
+  }
+  
+  input, button {
+    width: 100%;
+    height: 50px;
+
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+    color: #FFF;
+}
+
+header {
+    width: 100%;
+    border-bottom: 1px solid #222;
+}
+
+header nav {
+    width: 80%;
+    height: 64px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0 auto;
+}
+
+nav span {
+    font-size: 18px;
+}
+
+main {
+    width: 80%;
+    max-width: 500px;
+    min-height: calc(100vh - 64px);
+
+    margin: 0 auto;
+}
+
+.house img {
+    width: 100%;
+    padding: 75px 0;
+}
+
+.result {
+    width: 100%;
+    height: 45px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#previsao {
+    margin-left: 2px;
+    font-size: 17px;
+}
+
+form {
+    width: 100%;
+    max-width: 500px;
+
+    margin: 25px auto;
+}
+
+form input {
+    padding: 0 18px;
+    margin-bottom: 14px;
+  
+    background-color: #222;
+}
+  
+form button {
+    font: 400 16px 'Roboto', sans-serif;
+  
+    background: #665df5;
+    color: #fff;
+}
+
+footer {
+    width: 80%;
+    height: 64px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0 auto;
+
+    border-top: 1px solid #222;
+}

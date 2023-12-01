@@ -1,0 +1,15 @@
+Fórmula
+    y = a.x+b
+
+    a = M. Σx.y - Σx . Σy / M. Σx2 - (Σx)2
+
+    b = y - a.x
+
+    y = a.x - b
+
+Previsões
+    Apartamento de 67 metros 
+
+    y = a * x - b
+
+    y = 12797 * 67 - 363241
